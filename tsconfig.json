@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",           // Use CommonJS as the module system
+    "target": "ESNext",             // Target latest JavaScript version
+    "outDir": "./dist",             // Output compiled JS files to the "dist" folder
+    "rootDir": "./",                 // Set rootDir to the project root
+    "esModuleInterop": true,        // Allow interoperability with CommonJS modules
+    "moduleResolution": "node",     // Use Node.js style module resolution
+    "strict": true,                 // Enable strict type-checking options
+    "skipLibCheck": true            // Skip checking library files for faster compilation
+  },
+  "include": [
+    "parkingLot/",                  // Include all TypeScript files in the "src" folder
+    // "main.ts",                       // Include main.ts directly
+    // "test.ts"                        // Include test.ts directly
+  ],
+  "exclude": []
+}
